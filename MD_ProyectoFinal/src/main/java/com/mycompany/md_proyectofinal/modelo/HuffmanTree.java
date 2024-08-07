@@ -37,7 +37,7 @@ public class HuffmanTree {
     }
 
     // Función para generar el árbol de codificación Huffman
-    private static HuffmanTreeNode generateTree(PriorityQueue<HuffmanTreeNode> pq) {
+    public static HuffmanTreeNode generateTree(PriorityQueue<HuffmanTreeNode> pq) {
         while (pq.size() != 1) {
             HuffmanTreeNode left = pq.poll();
             HuffmanTreeNode right = pq.poll();
@@ -88,26 +88,5 @@ public class HuffmanTree {
             }
         }
         return decodedMessage.toString();
-    }
-
-    // Función principal
-    public static void main(String[] args) {
-        char[] data = { 'a', 'b', 'c', 'd', 'e', 'f' };
-        int[] freq = { 5, 9, 12, 13, 16, 45 };
-
-        Map<Character, String> huffmanCodeMap = generateHuffmanCodes(data, freq);
-
-        String message = "abcdef";
-        String encodedMessage = encode(message, huffmanCodeMap);
-        System.out.println("Encoded Message: " + encodedMessage);
-
-        PriorityQueue<HuffmanTreeNode> pq = new PriorityQueue<>();
-        for (int i = 0; i < data.length; i++) {
-            pq.add(new HuffmanTreeNode(data[i], freq[i]));
-        }
-
-        HuffmanTreeNode root = generateTree(pq);
-        String decodedMessage = decode(encodedMessage, root);
-        System.out.println("Decoded Message: " + decodedMessage);
     }
 }

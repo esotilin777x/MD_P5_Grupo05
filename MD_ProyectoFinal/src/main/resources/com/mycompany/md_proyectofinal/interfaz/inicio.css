@@ -1,0 +1,26 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+#AnchorPane{
+    -fx-background-color: #c3d1d6;;
+}
+
+.text-field {
+    -fx-cursor: hand;
+    -fx-background-color: #88a4ae;
+    -fx-background-radius: 50;
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+}
+
+.label {
+    -fx-text-fill:black;
+     -fx-font-size:13px;
+    -fx-font-weight: bold;
+    -fx-font-style: italic; 
+}
+
+#titulo{
+    -fx-font-size:21px;
+}

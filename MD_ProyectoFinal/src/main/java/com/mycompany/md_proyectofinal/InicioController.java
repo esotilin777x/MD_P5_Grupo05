@@ -28,7 +28,7 @@ public class InicioController implements Initializable {
     private TextField textTF;
 
     @FXML
-    private TextField bytesTF;
+    private TextField BitsTF;
     
     @FXML
     private TextArea encodedText;
@@ -63,8 +63,8 @@ public class InicioController implements Initializable {
     }
 
     @FXML
-    private void getBytesTF() {
-        String text = bytesTF.getText();
+    private void getBitsTF() {
+        String text = BitsTF.getText();
         if (text.isEmpty()) {
             showAlert("Error", "Por favor ingrese un texto para decodificar.");
             return;

@@ -18,9 +18,9 @@
          </font>
       </Label>
       <TextField fx:id="textTF" layoutX="75.0" layoutY="117.0" onAction="#getTextTF" prefWidth="149.0" stylesheets="@inicio.css" />
-      <TextField fx:id="BytesTF" layoutX="376.0" layoutY="117.0" onAction="#getBytesTF" />
+      <TextField fx:id="BitsTF" layoutX="376.0" layoutY="117.0" onAction="#getBitsTF" />
       <Label layoutX="65.0" layoutY="78.0" text="Ingrese un texto a codificar:" />
-      <Label layoutX="357.0" layoutY="78.0" text="Ingrese los bytes a decodificar:" />
+      <Label layoutX="357.0" layoutY="78.0" text="Ingrese los bits a decodificar:" />
       <TextArea fx:id="encodedText" layoutX="41.0" layoutY="176.0" prefHeight="164.0" prefWidth="217.0" />
       <TextArea fx:id="decodedText" layoutX="342.0" layoutY="176.0" prefHeight="164.0" prefWidth="217.0" />
    </children>

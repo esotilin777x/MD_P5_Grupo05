@@ -3,7 +3,8 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/javafx/FXMLController.java to edit this template
  */
 package com.mycompany.md_proyectofinal;
-import modelo.*;
+import com.mycompany.md_proyectofinal.modelo.HuffmanTree;
+import com.mycompany.md_proyectofinal.modelo.HuffmanTreeNode;
 import java.net.URL;
 import java.util.*;
 import java.util.ResourceBundle;

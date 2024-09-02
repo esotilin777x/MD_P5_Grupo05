@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package modelo;
+package com.mycompany.md_proyectofinal.modelo;
 
 /**
  *
@@ -64,7 +64,6 @@ public class HuffmanTreeNode implements Comparable<HuffmanTreeNode> {
     public void setRight(HuffmanTreeNode right) {
         this.right = right;
     }
-    
     
 }
 

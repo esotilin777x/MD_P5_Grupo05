@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" stylesheets="@arbolgenerado.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.md_proyectofinal.ArbolGeneradoController">
+   <children>
+      <Pane fx:id="treePane" layoutX="117.0" layoutY="100.0" prefHeight="258.0" prefWidth="367.0">
+         <children>
+            <Label fx:id="treeLabel" layoutX="131.0" layoutY="37.0" text="Árbol generado" />
+         </children>
+      </Pane>
+      <Label fx:id="titulo" layoutX="224.0" layoutY="54.0" text="Árbol generado" />
+   </children>
+</AnchorPane>

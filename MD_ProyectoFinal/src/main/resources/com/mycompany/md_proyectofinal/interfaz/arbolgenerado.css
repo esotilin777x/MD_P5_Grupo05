@@ -47,7 +47,6 @@
     -fx-background-radius: 50;
     -fx-text-fill: white;
     -fx-font-size: 12px;
-    -fx-font-weight: bold;
 }
 
 .button:pressed{

@@ -23,7 +23,7 @@ public class App extends Application {
             Parent root = loader.load();
             Scene scene = new Scene(root);
             stage.setScene(scene);
-            stage.setTitle("Algoritmo de codificación de Huffman");
+            stage.setTitle("Algoritmo de codificación de Huffman CAMBIO PROBANDO GIT");
             stage.show();
         } catch (Exception e) {
             e.printStackTrace();
